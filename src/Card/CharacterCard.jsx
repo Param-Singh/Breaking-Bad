@@ -2,7 +2,6 @@ import React from 'react'
 import { Card,ListGroupItem,ListGroup } from 'react-bootstrap'
 import '../Css/ResultsPage.css'
 export default function CharacterCard({name,birthday,img,occupation,status}) {
-    
     return (
         <Card className='card' style={{ width: '18rem' }}>
             <Card.Img className="card-img-top characterImage" src={img} />
